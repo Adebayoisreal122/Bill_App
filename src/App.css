@@ -2,13 +2,17 @@
 
 /* From Uiverse.io by akshat-patel28 */ 
 .form-container {
-    width: 350px;
-    height: 550px;
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 10px;
     box-sizing: border-box;
     padding: 20px 30px;
+  }
+  .forming{
+    box-sizing: border-box;
+    padding: 20px 30px;
+
+
   }
   
   .title {
@@ -32,7 +36,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: 10px;
     margin-bottom: 15px;
   }
   
@@ -108,10 +112,15 @@
   .apple-login-button {
     background-color: #000;
     color: #fff;
+    width: 50%;
     border: 2px solid #000;
+    align-self: center;
+
   }
   
   .google-login-button {
+    width: 50%;
+    align-self: center;
     border: 2px solid #747474;
   }
   
@@ -120,3 +129,23 @@
     font-size: 18px;
     margin-bottom: 1px;
   }
+
+
+
+  /* Dashboard Section 1 */
+
+  .custom-gradient-section {
+    background: linear-gradient(100deg, #11bfcb 0%, #0a51cc 100%);
+    color: white;
+  }
+  
+  .custom-gradient-section h1 {
+    text-shadow: 4px 8px 2px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+  }
+  
+  .custom-gradient-section p {
+    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.3);
+    line-height: 1.8;
+  }
+  
